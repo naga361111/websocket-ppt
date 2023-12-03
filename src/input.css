@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .generalGradient {
+    @apply bg-gradient-to-r from-indigo-600 from-10% via-sky-600 via-50% to-emerald-500 to-90%
+  }
+  .generalTitleStyle {
+    @apply font-bold text-4xl py-3 rounded-full
+  }
+  .fseGradient {
+    @apply text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 from-10% via-purple-500 via-50% to-pink-500 to-90%
+  }
+}
